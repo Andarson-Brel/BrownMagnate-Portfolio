@@ -963,10 +963,10 @@ footer {
   }
   .contact-details {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .contact-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 900;
   }
   .brand-desc {
@@ -1004,5 +1004,12 @@ footer {
   }
   .follow-me {
     font-size: 0.6rem;
+  }
+  .contact-btn a img {
+    width: 20px;
+  }
+  .contact-btn a {
+    font-size: 0.6rem;
+    margin: 0.2em 0;
   }
 }
