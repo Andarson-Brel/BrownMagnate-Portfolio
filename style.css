@@ -845,23 +845,23 @@ footer {
     width: 100%;
   }
   #nav-menu {
-    width: 40px;
-    height: 25px;
+    width: 30px;
+    height: 20px;
   }
   #nav-menu span {
-    height: 6px;
+    height: 4px;
   }
   #nav-menu span:nth-child(2) {
-    top: 10px;
+    top: 8px;
   }
   #nav-menu span:nth-child(3) {
-    top: 20px;
+    top: 16px;
   }
   .social-media {
     right: 15px;
   }
   .social-media a img {
-    width: 40px;
+    width: 20px;
   }
   .v-line {
     width: 3px;
@@ -897,7 +897,7 @@ footer {
   }
   .v-line {
     width: 3px;
-    height: 80px;
+    height: 40px;
   }
   .hero-img {
     width: 300px;
@@ -1001,5 +1001,8 @@ footer {
   }
   .about-img {
     margin-right: 1em;
+  }
+  .follow-me {
+    font-size: 0.6rem;
   }
 }
