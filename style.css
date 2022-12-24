@@ -891,9 +891,15 @@ footer {
   .social-media {
     top: 18%;
     right: 10px;
+    gap: 5px;
   }
   .social-media a img {
     width: 40px;
+    height: 40px;
+  }
+  .instagram {
+    width: 40px;
+    height: 40px;
   }
   .v-line {
     width: 3px;
@@ -1014,5 +1020,8 @@ footer {
   }
   .gallery-img:hover {
     scale: 2;
+  }
+  footer p {
+    font-size: 0.6rem;
   }
 }
