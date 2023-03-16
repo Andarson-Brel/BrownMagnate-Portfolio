@@ -740,6 +740,8 @@ footer {
 }
 .about-img {
   margin-right: 2em;
+  width: 20%;
+  border-radius: 50%;
 }
 .name {
   font-size: 1.5rem;
@@ -1001,6 +1003,7 @@ footer {
   }
   .about-img {
     margin-right: 1em;
+    width: 20%;
   }
   .follow-me {
     font-size: 0.6rem;
