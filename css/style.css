@@ -751,6 +751,148 @@ footer {
   margin: 2em 0;
 }
 
+/* BRANDING PAGE CSS */
+.branding-header .branding-navbar {
+  padding: 1em 1.8em;
+  width: 100%;
+}
+.brand-container {
+  margin-top: 6rem;
+}
+.brand-logo,
+.mock-up1 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+.brand-logo img {
+  max-width: 400px;
+  max-height: 350px;
+}
+.first-logo {
+  background-color: #f26a25;
+}
+.second-logo {
+  background-color: #fffcfc;
+}
+.third-logo {
+  background-color: #211f20;
+}
+
+.mock-up1 img {
+  width: 100%;
+  object-fit: cover;
+}
+.logo-color-var {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logo-color-var img {
+  width: 100%;
+}
+.container1 {
+  background-color: #211f20;
+}
+.container2,
+.container3 {
+  background-color: #fffcfc;
+}
+.container4 {
+  background-color: #f26a25;
+}
+.color-scheme {
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.color-scheme-head {
+  text-align: center;
+  margin-top: 1rem;
+}
+.color-scheme div {
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+}
+.color-scheme1 {
+  background-color: #f26a25;
+  font-weight: 700;
+  color: #fffcfc;
+}
+.color-scheme2 {
+  background-color: #211f20;
+  font-weight: 700;
+  color: #f26a25;
+}
+.color-scheme3 {
+  background-color: #fffcfc;
+  font-weight: 700;
+  color: #211f20;
+}
+.logo-build {
+  padding: 1rem !important;
+}
+.logo-build .logo-build-img {
+  width: 200px;
+  height: 200px;
+}
+
+.typography {
+  padding: 2rem;
+  background-color: #f26a25;
+  font-family: "BioRhyme", serif;
+}
+
+.typography h1,
+.typography h6,
+.typo-eg p {
+  font-family: "BioRhyme", serif;
+}
+.typography h6 {
+  letter-spacing: 10px;
+}
+.typo-eg {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.typography-bold:last-child,
+.typography-light:last-child {
+  text-transform: lowercase;
+}
+.typography-bold {
+  font-weight: 600;
+}
+.typography-light {
+  font-weight: 200;
+}
+
+.mock-up2 {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.mock-up2 img {
+  width: 100%;
+  height: 100%;
+}
+.brand-about {
+  padding: 3.125rem;
+  width: 100%;
+  background-color: #211f20;
+}
+.brand-about p {
+  margin: 2rem 0;
+}
+/* =======================END OF BRANDING PAGE CSS */
+
 /* MEDIA QUERIES FOR RESPONSIVENESS */
 @media (max-width: 1050px) {
   .nav-list {
