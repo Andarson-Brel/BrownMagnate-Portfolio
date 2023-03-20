@@ -891,6 +891,74 @@ footer {
 .brand-about p {
   margin: 2rem 0;
 }
+
+/* BRANDING PAGE MEDIA QUERIES */
+@media (max-width: 700px) {
+  .brand-logo,
+  .mock-up1,
+  .mock-up2 {
+    max-height: 250px;
+  }
+  .brand-logo img {
+    max-height: 250px;
+  }
+  .brand-about {
+    padding: 2rem;
+  }
+  .typo-eg p,
+  .brand-about p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .brand-logo,
+  .mock-up1,
+  .mock-up2 {
+    max-height: 200px;
+  }
+  .brand-logo img {
+    max-height: 150px;
+  }
+  .brand-about {
+    padding: 2rem;
+  }
+  .typo-eg p,
+  .brand-about p {
+    font-size: 0.8rem;
+  }
+  .color-scheme {
+    height: 100px;
+  }
+  .brand-logo {
+    padding: 0.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .brand-logo,
+  .mock-up1,
+  .mock-up2 {
+    max-height: 150px;
+  }
+  .brand-logo img {
+    max-height: 100px;
+  }
+  .brand-about {
+    padding: 0.8rem;
+  }
+  .typo-eg p,
+  .brand-about p {
+    font-size: 0.7rem;
+  }
+  .color-scheme {
+    height: 100px;
+  }
+  .brand-logo {
+    padding: 0.6rem;
+  }
+}
+/* END OF BRANDING PAGE MEDIA QUERIES */
 /* =======================END OF BRANDING PAGE CSS */
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
