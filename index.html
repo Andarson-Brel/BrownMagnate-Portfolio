@@ -14,21 +14,22 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="images/apple-touch-icon.png"
+      href="/images/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="images/favicon-32x32.png"
+      href="/images/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="images/favicon-16x16.png"
+      href="/images/favicon-16x16.png"
     />
     <link rel="manifest" href="/site.webmanifest" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Brown Portfolio</title>
   </head>
   <body>
@@ -136,15 +137,15 @@
 
       <section class="what-i-do">
         <div class="what-i-do-container">
-          <div class="what-i-do-card">
+          <div class="what-i-do-card item" data-aos="fade-up">
             <img src="images/graphic-design.svg" alt="" class="what-i-do-img" />
             <p class="what-i-do-title">Graphic Design</p>
           </div>
-          <div class="what-i-do-card">
+          <div class="what-i-do-card item" data-aos="fade-up">
             <img src="images/UI.svg" alt="" class="skill-img ui" />
             <p class="what-i-do-title">Product Design</p>
           </div>
-          <div class="what-i-do-card">
+          <div class="what-i-do-card item" data-aos="fade-up">
             <img
               src="images/app-store-logo.svg"
               alt=""
@@ -154,7 +155,7 @@
           </div>
         </div>
 
-        <div class="subskill-container">
+        <div class="subskill-container item" data-aos="fade-right">
           <span class="subskill">Advertising Design</span>
           <span class="subskill">Corporate Design</span>
           <span class="subskill">Art & Illustration</span>
@@ -182,7 +183,7 @@
           <h1 class="title">Tools</h1>
         </div>
       </section>
-      <section class="skills-container">
+      <section class="skills-container item" data-aos="fade-left">
         <div class="skills">
           <div class="conteudo">
             <div class="carrosel">
@@ -233,7 +234,7 @@
       </section>
 
       <div class="brands-container">
-        <div class="brand-card">
+        <div class="brand-card item" data-aos="zoom-in">
           <div class="brand-thmb">
             <img src="images/slays-exchange.svg" alt="" class="brand-img" />
           </div>
@@ -247,7 +248,7 @@
             <button class="view-more">View More</button></a
           >
         </div>
-        <div class="brand-card">
+        <div class="brand-card item" data-aos="zoom-in">
           <div class="brand-thmb">
             <img src="images/cashout-ng.svg" alt="" class="brand-img" />
           </div>
@@ -259,7 +260,7 @@
           </p>
           <button class="view-more">View More</button>
         </div>
-        <div class="brand-card">
+        <div class="brand-card item" data-aos="zoom-out">
           <div class="brand-thmb">
             <img src="images/luwa-fads.svg" alt="" class="brand-img" />
           </div>
@@ -271,7 +272,7 @@
           </p>
           <button class="view-more">View More</button>
         </div>
-        <div class="brand-card">
+        <div class="brand-card item" data-aos="zoom-out">
           <div class="brand-thmb">
             <img src="images/ace-tech.svg" alt="" class="brand-img" />
           </div>
@@ -414,6 +415,10 @@
     </div>
     <footer><p>&copy;Daniel Andara Innocent</p></footer>
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script>
       const navMenu = document.getElementById("nav-menu");
       const navList = document.querySelector(".nav-list");
