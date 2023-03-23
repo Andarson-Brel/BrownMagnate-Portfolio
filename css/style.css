@@ -958,6 +958,23 @@ footer {
     padding: 0.6rem;
   }
 }
+
+/* ===========================cash out ng brand ============================= */
+
+.cashout-about {
+  width: 100%;
+}
+.cashout-about img {
+  width: 100%;
+}
+/* ===========================end of cash out ng======================== */
+.shop-all {
+  width: 100%;
+}
+.shop-all img {
+  width: 100%;
+}
+
 /* END OF BRANDING PAGE MEDIA QUERIES */
 /* =======================END OF BRANDING PAGE CSS */
 
