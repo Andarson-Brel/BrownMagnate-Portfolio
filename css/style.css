@@ -937,12 +937,12 @@ footer {
 }
 @media (max-width: 460px) {
   .brand-thmb {
-    height: 200px;
+    height: 220px !important;
   }
 }
 @media (max-width: 400px) {
   .brand-thmb {
-    height: 150px;
+    height: 190px !important;
   }
   .brand-logo,
   .mock-up1,
