@@ -582,6 +582,7 @@ a {
 .brand-thmb {
   overflow: hidden;
   border-radius: 4px;
+  height: 200px;
   margin: auto;
 }
 .brand-img {
@@ -934,8 +935,15 @@ footer {
     padding: 0.6rem;
   }
 }
-
+@media (max-width: 460px) {
+  .brand-thmb {
+    height: 200px;
+  }
+}
 @media (max-width: 400px) {
+  .brand-thmb {
+    height: 150px;
+  }
   .brand-logo,
   .mock-up1,
   .mock-up2 {
@@ -1036,6 +1044,9 @@ footer {
 }
 
 @media (max-width: 750px) {
+  .brand-thmb {
+    height: 400px;
+  }
   .menu-down {
     width: 52%;
   }
@@ -1094,6 +1105,13 @@ footer {
   }
 }
 @media (max-width: 550px) {
+  .brand-thmb {
+    height: 300px;
+  }
+  .about-container {
+    align-items: center;
+    flex-direction: column;
+  }
   .logo img {
     width: 50px;
   }
